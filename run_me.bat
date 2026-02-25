@@ -16,7 +16,7 @@ if %errorlevel% equ 0 (
         set PY_CMD=py
     ) else (
         echo ERROR: Python not found!
-        echo Please install Python 3.12 from python.org and check "Add Python to PATH".
+        echo Read README.md again.
         pause
         exit /b
     )
@@ -27,7 +27,7 @@ if %errorlevel% equ 0 (
 if %errorlevel% neq 0 (
     echo ERROR: Incompatible Python version.
     %PY_CMD% --version
-    echo Please use Python 3.9, 3.10, 3.11, or 3.12.
+    echo Read README.md again.
     pause
     exit /b
 )
@@ -42,7 +42,7 @@ if not exist %VENV_NAME% (
 
 :: 4. Install Requirements
 echo [..] Installing/Updating libraries (this may take a minute)...
-%VENV_NAME%\Scripts\python -m pip install --quiet -r requirements.txt
+%VENV_NAME%\Scripts\python -m pip install -r requirements.txt
 if %errorlevel% neq 0 (
     echo ERROR: Failed to install libraries. Check your internet connection.
     pause
