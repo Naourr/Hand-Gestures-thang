@@ -1,7 +1,7 @@
 Setup:
-- Need python version 3.9-3.12 for compatibility with mediapipe
-- Need setup venv, para daw lahat ng i pip install, local lang sa project folder nato para di makalat daw idk
-- run: pip install -r requirements.txt, i guess. diko pa natesting pero kung di gumana pip install mediapipe lang?
+- Double click "run_me.bat" file (on Windows) and follow instructions.
+- Open project folder in a text editor liek vscode.
+- In main.py, click run at the top right corner, and press q to stop.
 
 Notes:
 - cv2 captures each frame at nagddraw ng points and lines
