@@ -18,7 +18,24 @@ options = HandLandmarkerOptions(
 )
 
 # 2. Start Video Capture
-cap = cv2.VideoCapture(0)
+def get_working_camera():
+    # Try indices 0 through 2
+    for index in [0, 1, 2]:
+        cap = cv2.VideoCapture(index)
+        if cap.isOpened():
+            success, _ = cap.read()
+            if success:
+                print(f"Using Camera Index: {index}")
+                return cap
+            cap.release()
+    return None
+
+cap = get_working_camera()
+
+if cap is None:
+    print("Error: No working camera found!")
+    exit()
+
 with HandLandmarker.create_from_options(options) as landmarker:
     while cap.isOpened():
         success, frame = cap.read()
