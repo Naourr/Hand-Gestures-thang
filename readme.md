@@ -1,3 +1,6 @@
+Demo:
+<video src="assets/HeFuVmVi%20-%20Trim.mp4" controls width="100%"></video>
+
 Setting up python:
 - Open command promt or powershell (If on linux, you can probably do this yourself n-)
 - Type: python --version, if its 3.9 to 3.12, theres no need to download python again.
@@ -26,3 +29,7 @@ ito sana plano madetect:
 
 then ilagay sana sa textbox like this:
 https://www.youtube.com/watch?v=MYVD7mVJ21w
+
+Finished version by [AkIyAm4](https://github.com/AkIyAm4): 
+https://github.com/AkIyAm4/ASL-Speller
+
