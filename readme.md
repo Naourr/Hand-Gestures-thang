@@ -1,8 +1,8 @@
-Demo:
-<video src="assets/vid_demo.mp4" width="100%" controls autoplay muted loop></video>
+Video Demo:
+<video src="https://github.com/user-attachments/assets/a9679cc7-ef3c-4c3f-b9b7-b69086b1f9bb" width="100%" controls autoplay muted loop></video>
 
 Setting up python:
-- Open command promt or powershell (If on linux, you can probably do this yourself n-)
+- Open command promt or powershell
 - Type: python --version, if its 3.9 to 3.12, theres no need to download python again.
 - Else, download a compatible python version, like this one: https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe
 - After downloading, run the file and in the installer make sure to:
