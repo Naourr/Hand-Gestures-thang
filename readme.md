@@ -1,5 +1,5 @@
 Demo:
-<video src="assets/vid_demo.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/d4385401-e973-4572-a07f-7b9a26ba6ae6
 
 Setting up python:
 - Open command promt or powershell (If on linux, you can probably do this yourself n-)
