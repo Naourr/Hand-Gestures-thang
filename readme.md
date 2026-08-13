@@ -1,5 +1,5 @@
 Demo:
-![vid demo](https://github.com/user-attachments/assets/d4385401-e973-4572-a07f-7b9a26ba6ae6)
+<video src="assets/vid_demo.mp4" width="100%" controls autoplay muted loop></video>
 
 Setting up python:
 - Open command promt or powershell (If on linux, you can probably do this yourself n-)
